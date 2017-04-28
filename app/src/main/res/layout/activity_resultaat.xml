@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SOlogo"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/sologo"
+            android:id="@+id/imgSOlogo"
+            android:layout_weight="4"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_marginStart="@dimen/btnBack_marginStart"
+            android:layout_marginEnd="@dimen/seperator_margin"
+            android:layout_marginTop="@dimen/seperator_margin"
+            android:layout_marginBottom="@dimen/seperator_margin"
+            android:text="@string/back"
+            android:id="@+id/btnBack"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textSize="@dimen/main_title"
+        android:gravity="center"
+        android:id="@+id/tv_testnaam"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultaat"
+            android:textSize="@dimen/testvraag_alternatief_thema_textsize"
+            android:background="@drawable/back"
+            android:id="@+id/tv_resultaat"
+            android:padding="@dimen/padding_resultaat"/>
+
+        </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delen"
+        android:textSize="@dimen/btnDelen_textsize"
+        android:layout_marginStart="@dimen/margin_btn_delen"
+        android:layout_marginEnd="@dimen/margin_btn_delen"
+        android:id="@+id/btnDelen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/situatie"
+        android:textSize="@dimen/resultaat_uitleg_textsize"
+        android:background="@drawable/back"
+        android:id="@+id/tv_situatie"
+        android:layout_marginStart="@dimen/margin_situatie"
+        android:layout_marginEnd="@dimen/margin_situatie"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/margin_uitleg"
+        android:padding="@dimen/padding_resultaat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/uitleg"
+        android:textSize="@dimen/resultaat_uitleg_textsize"
+        android:background="@drawable/back"
+        android:id="@+id/tv_extra_uitleg"
+        android:layout_marginStart="@dimen/margin_situatie"
+        android:layout_marginEnd="@dimen/margin_situatie"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/margin_uitleg"
+        android:layout_marginBottom="@dimen/margin_uitleg"
+        android:padding="@dimen/padding_resultaat"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">IP_R_Androidapp</string>
+    <string name="starttest">Start de test!</string>
+
+    <string name="voorbeeldtestvraag">Voorbeeld test vraag
+    Lorem ipsum dolor sit amet, in duis posse per. Dolores placerat usu id, dicant fuisset erroribus te per,
+        eu animal tamquam vim. Eu iisque saperet eum. Movet patrioque duo ut, facer latine corrumpit est no.
+        Usu cu summo debitis.</string>
+    <string name="thema">Thema</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+
+    <string name="cdenv">Cd&amp;V</string>
+    <string name="groen">Groen</string>
+    <string name="nva">N&#45;VA</string>
+
+    <string name="mening_cdenv">Cd&amp;V
+    blablablablabalblablalbl</string>
+    <string name="mening_groen">Groen
+    blablablablabalblablalbl</string>
+    <string name="mening_nva">N&#45;VA
+    blablablablabalblablalbl</string>
+
+    <string name="main_uitleg">Lorem ipsum dolor sit amet, in duis posse per. Dolores placerat usu id, dicant fuisset erroribus te per,
+        eu animal tamquam vim. Eu iisque saperet eum. Movet patrioque duo ut, facer latine corrumpit est no.
+        Usu cu summo debitis.Lorem ipsum dolor sit amet, in duis posse per. Dolores placerat usu id, dicant fuisset erroribus te per,
+        eu animal tamquam vim. Eu iisque saperet eum. Movet patrioque duo ut, facer latine corrumpit est no.
+        Usu cu summo debitis.</string>
+    <string name="main_title">Armoedetest</string>
+
+    <string name="vraag1">Vraag 1</string>
+    <string name="persvraag1">Bent u man of vrouw?</string>
+    <string name="man">Man</string>
+    <string name="vrouw">Vrouw</string>
+
+    <string name="resultaat">Resultaat: 97%</string>
+    <string name="delen">Delen!</string>
+    <string name="situatie">Huidige situatie:
+    Lorem ipsum dolor sit amet, in duis posse per. Dolores placerat usu id, dicant fuisset erroribus te per,
+        eu animal tamquam vim. </string>
+    <string name="uitleg">Extra uitleg:
+    Lorem ipsum dolor sit amet, in duis posse per. Dolores placerat usu id, dicant fuisset erroribus te per,
+        eu animal tamquam vim. .</string>
+
+    <string name="back">Home ></string>
+
+</resources>

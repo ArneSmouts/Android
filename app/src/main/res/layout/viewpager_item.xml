@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imglogo"
+        android:layout_margin="@dimen/seperator_margin"/>
+    
+    <TextView
+        android:id="@+id/txtpolpartij"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_height"
+        android:layout_margin="@dimen/seperator_margin"
+        android:textAlignment="center"
+        android:textSize="@dimen/testvraag_alternatief_thema_textsize"
+        android:layout_toEndOf="@id/imglogo"/>
+
+    <TextView
+        android:id="@+id/txtmening"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/imglogo"
+        android:layout_margin="@dimen/seperator_margin"
+        android:textSize="@dimen/testvraag_vraag_textsize"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
